@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .box{
+            width: 400px;
+            height: auto;
+            padding: 50px;
+            background-color: beige;
+        }
+        table{
+            width: 100%;
+        }
+        td{
+            padding: 10px;
+        }
+        .c1{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
+        .c1 button{
+            margin-left: 10px;
+            padding: 5px 10px;
+            color: white;
+            background-color: blue;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+    <form action=""></form>
+    <table border="1px" >
+        <tr>
+            <td>
+                机构 <input type="text" name="institution" placeholder="请输入机构编码">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                用户类型<select name="kind">
+                    <option value="" disabled selected hidden>注册用户类型</option>
+                    <option value="">用户</option>
+                    <option value="">陪练</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="c1">
+                    姓名<input type="text" name="name" placeholder="请输入姓名">
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="c1">
+                    手机号<input type="text" name="phone number" placeholder="请输入手机号">
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="c1">
+                    密码<input type="text" name="password" placeholder="请输入密码">
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="c1">
+                    验证码<input type="text" name="test number" placeholder="请输入验证码">
+  
+                         <button type="button">获取</button>
+                    </div>
+                   
+                </div>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div style="display: flex; justify-content: center;gap:100px;">
+                    
+                    <a href="登录.html">
+                        <button type="button">返回</button>
+                    </a>
+                    <button type="button"> 注册</button>
+                </div>
+
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+
+</html>
